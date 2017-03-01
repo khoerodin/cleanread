@@ -1,1 +1,1 @@
-theme build with [Base](http://getbase.org)
+build with [Base](http://getbase.org)
