@@ -14,8 +14,7 @@ var gulp = require('gulp'),
     uglify = require('gulp-uglify'),
     autoprefixer = require('gulp-autoprefixer'),
     runSequence = require('run-sequence'),
-    googleWebFonts = require('gulp-google-webfonts'),
-    runSequence = require('run-sequence');
+    googleWebFonts = require('gulp-google-webfonts');
 
 // Task to compile SCSS
 gulp.task('sass', function () {
