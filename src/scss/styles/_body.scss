@@ -18,3 +18,8 @@ article {
 .content-meta {
 	@include font-size($small-font-size);
 }
+code, .code {
+	background-color: #efefef;
+	border-radius: 3px;
+	padding: 1px 5px;
+}
