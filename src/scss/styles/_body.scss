@@ -1,3 +1,6 @@
+.content{
+	background-color: $color-white;
+}
 article {
 	padding-right: 10px;
 }
@@ -7,7 +10,7 @@ article {
 .parent-content-title a {
 	font-weight: 400;
 	@include font-size($base-h2-font-size);
-	color: $color-light;
+	color: $color-medium-grey;
 	text-decoration: none;
 }
 .parent-content-title a:hover {	
@@ -20,7 +23,36 @@ article {
 	@include font-size($small-font-size);
 }
 code, .code {
-	background-color: #efefef;
+	background-color: $color-very-light-grey;
 	border-radius: 3px;
 	padding: 1px 5px;
+}
+.series-heading {
+	padding: 40px 0 20px 0;
+	@include font-size($base-h2-font-size);
+	line-height: $series-heading-line-height;
+	font-family: $base-heading-font-family;
+}
+.card {
+	margin-bottom: 17px;
+	height: 200px;
+	max-height: 200px;
+	border-radius: 2px;
+	box-shadow: 0 1px 5px gainsboro;
+	padding: 20px 30px;
+	background-color: $color-white;
+	font-family: $base-heading-font-family;
+}
+.card .meta {
+	@include font-size($x-small-font-size);
+	color: $color-medium-grey;
+}
+.card .content {
+	@include font-size($small-font-size);
+	@include line-height($x-small-line-height);
+}
+.card .title {
+	border-top: 1px solid $color-light-grey;	
+	margin-top: 10px;
+	padding-top: 10px;
 }

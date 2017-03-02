@@ -2,5 +2,15 @@
 	background: $color-light-grey;
 }
 .img-fluid {
-	border-radius: 3px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+a.mute-link {
+	text-decoration: none;
+}
+.text-primary {
+	color: $color-primary;
+}
+.text-grey {
+	color: $color-medium-grey;
 }
