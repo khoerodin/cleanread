@@ -1,19 +1,20 @@
 article {
 	padding-right: 10px;
 }
-.sidebar-title, .parent-content-title a, .content-title {
+.sidebar-title {
 	font-weight: normal;
 }
 .parent-content-title a {
+	font-weight: 400;
 	@include font-size($base-h2-font-size);
 	color: $color-light;
 	text-decoration: none;
 }
-.parent-content-title a:hover {
+.parent-content-title a:hover {	
 	color: $color-primary;
 }
 .content-title {
-	@include font-size($base-h1-font-size);	
+	@include font-size($base-h1-font-size);
 }
 .content-meta {
 	@include font-size($small-font-size);
