@@ -112,7 +112,7 @@ body {
   line-height: 1.9375rem;
   color: #5f6d80;
   font-weight: 400;
-  background: #fff; }
+  background: #f5f5f5; }
 
 p {
   margin: 0 0 20px 0; }
@@ -1515,16 +1515,27 @@ input:-ms-input-placeholder {
     content: " (" attr(title) ")"; } }
 
 .bg-grey {
-  background: #F5F5F5; }
+  background: #d7d7d7; }
 
 .img-fluid {
-  border-radius: 3px; }
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px; }
+
+a.mute-link {
+  text-decoration: none; }
+
+.text-primary {
+  color: #00b1b3; }
+
+.text-grey {
+  color: #b2b4b7; }
 
 .site-header {
-  border-top: 5px solid #5b6770;
+  border-top: 5px solid #5f6d80;
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
-  position: relative; }
+  position: relative;
+  background-color: #fff; }
 
 a.logo {
   font-size: 37px;
@@ -1532,8 +1543,8 @@ a.logo {
   font-family: 'VT323', monospace;
   text-decoration: none; }
 
-.text-primary {
-  color: #00b1b3; }
+.content {
+  background-color: #fff; }
 
 article {
   padding-right: 10px; }
@@ -1560,14 +1571,42 @@ article {
   font-size: 0.875rem; }
 
 code, .code {
-  background-color: #efefef;
+  background-color: #f5f5f5;
   border-radius: 3px;
   padding: 1px 5px; }
 
-.site-footer {
-  box-shadow: 0 -3px 10px 0 rgba(0, 0, 0, 0.0785);
-  min-height: 56px;
-  position: relative; }
+.series-heading {
+  padding: 40px 0 20px 0;
+  font-size: 26px;
+  font-size: 1.625rem;
+  line-height: 38px;
+  font-family: "Miriam Libre", sans-serif; }
+
+.card {
+  margin-bottom: 17px;
+  height: 200px;
+  max-height: 200px;
+  border-radius: 2px;
+  box-shadow: 0 1px 5px gainsboro;
+  padding: 20px 30px;
+  background-color: #fff;
+  font-family: "Miriam Libre", sans-serif; }
+
+.card .meta {
+  font-size: 12px;
+  font-size: 0.75rem;
+  color: #b2b4b7; }
+
+.card .content {
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 22px;
+  line-height: 1.375rem; }
+
+.card .title {
+  border-top: 1px solid #d7d7d7;
+  margin-top: 10px;
+  padding-top: 10px; }
 
 /*
 
