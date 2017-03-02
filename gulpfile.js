@@ -106,10 +106,10 @@ gulp.task('googlefonts', function () {
     .pipe(gulp.dest('./dist/css'));  
 });
 
-gulp.task('movefonts', function() {
+gulp.task('copyfonts', function() {
   gulp.src('./dist/fonts/*').pipe(gulp.dest('./src/fonts'));
 });
 
 gulp.task('fonts', function(callback) {
-  runSequence('googlefonts', 'movefonts', callback);
+  runSequence('googlefonts', 'copyfonts', callback);
 });
