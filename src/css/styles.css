@@ -98,6 +98,13 @@ svg:not(:root) {
   unicode-range: U+0-10FFFF; }
 
 @font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Ubuntu-normal-400.woff) format("woff");
+  unicode-range: U+0-10FFFF; }
+
+@font-face {
   font-family: 'VT323';
   font-style: normal;
   font-weight: 400;
@@ -112,7 +119,7 @@ body {
   line-height: 1.9375rem;
   color: #5f6d80;
   font-weight: 400;
-  background: #f5f5f5; }
+  background: #fff; }
 
 p {
   margin: 0 0 20px 0; }
@@ -217,7 +224,7 @@ small, .small {
   line-height: 1rem; }
 
 mark, .mark {
-  background-color: #ff0;
+  background-color: rgba(39, 243, 106, 0.1);
   color: #5f6d80; }
 
 sub, .sub, sup, .sup {
@@ -1514,105 +1521,150 @@ input:-ms-input-placeholder {
   abbr[title]:after {
     content: " (" attr(title) ")"; } }
 
-.bg-grey {
-  background: #d7d7d7; }
-
-.img-fluid {
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px; }
-
 a.mute-link {
-  text-decoration: none; }
-
-.text-primary {
-  color: #00b1b3; }
-
-.text-grey {
-  color: #b2b4b7; }
-
-.site-header {
-  border-top: 5px solid #5f6d80;
-  border-bottom: 1px solid #e8e8e8;
-  min-height: 56px;
-  position: relative;
-  background-color: #fff; }
-
-a.logo {
-  font-size: 37px;
-  font-size: 2.3125rem;
-  font-family: 'VT323', monospace;
   text-decoration: none; }
 
 a:link {
   cursor: pointer; }
 
+.hidden {
+  visibility: hidden; }
+
+.none {
+  display: none; }
+
 .bg-white {
   background-color: #fff; }
 
-article.episode {
-  padding-right: 10px; }
+.bg-grey {
+  background: #d7d7d7; }
 
-.episode .parent-title a {
+.text-primary {
+  color: #02b875; }
+
+.text-grey {
+  color: #b2b4b7; }
+
+.img-fluid {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px; }
+
+code, .code {
+  background-color: #f3f3f3;
+  border-radius: 3px;
+  padding: 1px 5px; }
+
+.pad-top-7 {
+  padding-top: 7px; }
+
+.pad-bottom-7 {
+  padding-bottom: 7px; }
+
+.header-logo {
+  border-bottom: 1px solid #f5f5f5; }
+
+.header-logo.no-border {
+  border-color: transparent; }
+
+.header-logo a {
+  font-size: 37px;
+  font-size: 2.3125rem;
+  font-family: 'VT323', monospace;
+  text-decoration: none; }
+
+.horizontal-menu {
+  border-bottom: 1px solid #f5f5f5;
+  box-shadow: 0 2px 3px -3px rgba(0, 0, 0, 0.15);
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-family: "Ubuntu", sans-serif; }
+
+.horizontal-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+
+.horizontal-menu ul li {
+  float: left;
+  margin-right: 20px; }
+
+.horizontal-menu ul li a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.44); }
+
+.horizontal-menu ul li a.active {
+  color: rgba(0, 0, 0, 0.8); }
+
+.horizontal-menu ul li a:hover:not(.active) {
+  color: rgba(0, 0, 0, 0.6); }
+
+article.episode {
+  padding-right: 10px;
+  cursor: default; }
+
+.episode .parent-title a,
+.series .parent-title {
   font-weight: 400;
   font-size: 26px;
   font-size: 1.625rem;
-  color: #b2b4b7;
+  color: #ccc;
   text-decoration: none; }
-
-.episode .parent-title a:hover {
-  color: #00b1b3; }
 
 .episode .title {
   font-size: 37px;
   font-size: 2.3125rem; }
 
-.episode .meta {
-  font-size: 14px;
-  font-size: 0.875rem; }
-
-code, .code {
-  background-color: #f5f5f5;
-  border-radius: 3px;
-  padding: 1px 5px; }
-
 .series .heading {
-  padding: 20px 0 20px 0;
   font-size: 26px;
   font-size: 1.625rem;
   line-height: 38px;
-  font-family: "Miriam Libre", sans-serif; }
+  font-family: "Miriam Libre", sans-serif;
+  cursor: default; }
 
-.series .parent-title {
-  font-weight: 400;
-  font-size: 26px;
-  font-size: 1.625rem;
-  color: #b2b4b7; }
-
-.post-list-card {
+.post-list, .series-list {
   margin-bottom: 17px;
-  height: 200px;
-  max-height: 200px;
-  border-radius: 2px;
-  box-shadow: 0 1px 5px gainsboro;
-  padding: 20px 30px;
-  background-color: #fff;
-  font-family: "Miriam Libre", sans-serif; }
+  padding: 10px 30px 10px 0px; }
 
-.post-list-card .meta {
-  font-size: 12px;
-  font-size: 0.75rem;
-  color: #b2b4b7; }
-
-.post-list-card .content {
+.post-list .meta, .series-list .meta, .episode .meta {
   font-size: 14px;
   font-size: 0.875rem;
-  line-height: 22px;
-  line-height: 1.375rem; }
+  line-height: 28px;
+  line-height: 1.75rem;
+  color: #b2b4b7;
+  font-family: "Ubuntu", sans-serif; }
 
-.post-list-card .title {
+.series-list .title {
   border-top: 1px solid #d7d7d7;
   margin-top: 10px;
-  padding-top: 10px; }
+  padding-top: 10px;
+  font-weight: bold; }
+
+.snippet-content {
+  font-size: 17px;
+  font-size: 1.0625rem;
+  line-height: 29px;
+  line-height: 1.8125rem; }
+
+.home-featured-content h2 {
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 24px;
+  line-height: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+  color: #02b875;
+  font-weight: 700; }
+
+footer.horizontal-menu {
+  border-bottom: none;
+  box-shadow: none; }
+
+.footer-menu {
+  border-top: 1px solid #f5f5f5;
+  font-size: 12px;
+  font-size: 0.75rem; }
 
 /*
 
@@ -1628,18 +1680,10 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 /* Base color: saturation 0; */
 .hljs,
 .hljs-subst {
-  color: #444; }
+  color: #5f6d80; }
 
 .hljs-comment {
-  color: #888888; }
-
-.hljs-keyword,
-.hljs-attribute,
-.hljs-selector-tag,
-.hljs-meta-keyword,
-.hljs-doctag,
-.hljs-name {
-  font-weight: bold; }
+  color: rgba(136, 136, 136, 0.7); }
 
 /* User color: hue: 0 */
 .hljs-type,
@@ -1650,12 +1694,11 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 .hljs-quote,
 .hljs-template-tag,
 .hljs-deletion {
-  color: #00b1b3; }
+  color: #02b875; }
 
 .hljs-title,
 .hljs-section {
-  color: #00b1b3;
-  font-weight: bold; }
+  color: #02b875; }
 
 .hljs-regexp,
 .hljs-symbol,
