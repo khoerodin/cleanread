@@ -26,16 +26,17 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="423.56864"
-     inkscape:cy="507.45815"
+     inkscape:cx="424.05075"
+     inkscape:cy="705.39572"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g4142"
      showgrid="false"
      inkscape:window-width="1366"
      inkscape:window-height="744"
      inkscape:window-x="0"
      inkscape:window-y="24"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     showguides="false" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -44,7 +45,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -55,125 +56,31 @@
     <g
        id="g4142"
        transform="translate(-91.428571,-74.285715)">
-      <rect
-         y="288.07584"
-         x="116.7066"
-         height="499.76105"
-         width="499.76105"
-         id="rect3336"
-         style="opacity:1;fill:#00b1b3;fill-opacity:1;stroke:#00b1b3;stroke-width:0.23899999;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text4138"
-         y="712.93359"
-         x="190"
-         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:462.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff"
-           y="712.93359"
-           x="190"
-           id="tspan4140"
-           sodipodi:role="line">k</tspan></text>
-    </g>
-    <g
-       transform="matrix(0.22799994,0,0,0.22799999,608.54405,456.85819)"
-       id="g4147"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90">
-      <rect
-         style="opacity:1;fill:#00b1b3;fill-opacity:1;stroke:#00b1b3;stroke-width:0.23899999;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect4149"
-         width="499.76105"
-         height="499.76105"
-         x="116.7066"
-         y="288.07584" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="190"
-         y="712.93359"
-         id="text4151"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan4153"
-           x="190"
-           y="712.93359"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:462.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff">k</tspan></text>
-    </g>
-    <g
-       transform="matrix(0.14399999,0,0,0.14400047,597.38449,698.97998)"
-       id="g4155"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90">
-      <rect
-         style="opacity:1;fill:#00b1b3;fill-opacity:1;stroke:#00b1b3;stroke-width:0.23899999;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect4157"
-         width="499.76105"
-         height="499.76105"
-         x="116.7066"
-         y="288.07584" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="190"
-         y="712.93359"
-         id="text4159"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan4161"
-           x="190"
-           y="712.93359"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:462.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff">k</tspan></text>
-    </g>
-    <g
-       transform="matrix(0.11400001,0,0,0.11399999,677.5996,335.32467)"
-       id="g4163"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90">
-      <rect
-         style="opacity:1;fill:#00b1b3;fill-opacity:1;stroke:#00b1b3;stroke-width:0.23899999;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect4165"
-         width="499.76105"
-         height="499.76105"
-         x="116.7066"
-         y="288.07584" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="190"
-         y="712.93359"
-         id="text4167"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan4169"
-           x="190"
-           y="712.93359"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:462.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff">k</tspan></text>
-    </g>
-    <g
-       transform="matrix(0.06399999,0,0,0.06400002,607.71383,281.87961)"
-       id="g4171"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90">
-      <rect
-         style="opacity:1;fill:#00b1b3;fill-opacity:1;stroke:#00b1b3;stroke-width:0.23899999;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect4173"
-         width="499.76105"
-         height="499.76105"
-         x="116.7066"
-         y="288.07584" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="190"
-         y="712.93359"
-         id="text4175"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan4177"
-           x="190"
-           y="712.93359"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:462.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff">k</tspan></text>
+      <g
+         id="g3349"
+         inkscape:export-xdpi="20.52981"
+         inkscape:export-ydpi="20.52981">
+        <rect
+           ry="67.873779"
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.23899999;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+           id="rect3336"
+           width="499.76105"
+           height="499.76105"
+           x="216.70659"
+           y="290.93298" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0"
+           x="300.14212"
+           y="707.42523"
+           id="text4138"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4140"
+             x="300.14212"
+             y="707.42523"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:437.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#5f6d80;fill-opacity:1;stroke:none;stroke-opacity:0">k</tspan></text>
+      </g>
     </g>
   </g>
 </svg>
