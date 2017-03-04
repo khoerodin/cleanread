@@ -1,12 +1,20 @@
-.bg-grey {
-	background: $color-light-grey;
-}
-.img-fluid {
-	border-top-left-radius: 3px;
-	border-top-right-radius: 3px;
-}
 a.mute-link {
 	text-decoration: none;
+}
+a:link {
+	cursor: pointer;
+}
+.hidden {
+	visibility: hidden;
+}
+.none {
+	display: none;
+}
+.bg-white {
+	background-color: $color-white;
+}
+.bg-grey {
+	background: $color-light-grey;
 }
 .text-primary {
 	color: $color-primary;
@@ -14,3 +22,14 @@ a.mute-link {
 .text-grey {
 	color: $color-medium-grey;
 }
+.img-fluid {
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+code, .code {
+	background-color: $color-very-light-grey;
+	border-radius: 3px;
+	padding: 1px 5px;
+}
+.pad-top-7 { padding-top: 7px; }
+.pad-bottom-7 { padding-bottom: 7px; }
