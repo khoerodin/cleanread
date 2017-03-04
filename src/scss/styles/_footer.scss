@@ -1,0 +1,8 @@
+footer.horizontal-menu {
+	border-bottom: none;
+	box-shadow: none;
+}
+.footer-menu {
+	border-top: 1px solid #f5f5f5;
+	@include font-size($xx-small-font-size);
+}
